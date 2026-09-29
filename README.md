@@ -830,6 +830,7 @@ outside its author. Read the code before you sign anything valuable with it.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Golden vectors are never edited by hand.
 Security reports go through [SECURITY.md](SECURITY.md), not the issue tracker.
+For questions and where to send each kind of report, see [SUPPORT.md](SUPPORT.md).
 
 The Markdown in this repository is link-checked by the
 [`links` workflow](.github/workflows/links.yml) and spell-checked by the
