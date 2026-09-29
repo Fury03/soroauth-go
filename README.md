@@ -843,4 +843,5 @@ moving elsewhere is not a regression here.
 
 ## License
 
-Apache-2.0. See [LICENSE](LICENSE).
+Apache-2.0. See [LICENSE](LICENSE). Source files carry no per-file header by
+design; the reasoning is in [CONTRIBUTING.md](CONTRIBUTING.md#no-per-file-licence-headers).

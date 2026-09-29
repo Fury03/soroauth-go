@@ -714,3 +714,19 @@ Do not open a public issue for a signature-correctness or key-handling bug. See
 ## License
 
 By contributing you agree your contributions are licensed under Apache-2.0.
+
+### No per-file licence headers
+
+Source files deliberately carry no licence header. The whole repository is
+Apache-2.0, declared once in [LICENSE](LICENSE) at the root, which is what
+GitHub and `pkg.go.dev` read to report the licence. Apache-2.0 does not require
+a header in each file: the boilerplate notice is in its appendix, which
+follows "END OF TERMS AND CONDITIONS" in [LICENSE](LICENSE), so it is guidance
+on applying the licence rather than one of its terms. A header copied into hundreds of files adds nothing the root file
+does not already say, and a header that drifts from `LICENSE` would be worse
+than none.
+
+So do not add a header to a file you create, and do not add an SPDX line. Files
+copied in from another project under a different licence are the exception:
+they keep their original notice, and the pull request says where they came
+from. Because no header is adopted, there is no CI check for one.
