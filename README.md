@@ -844,5 +844,5 @@ moving elsewhere is not a regression here.
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE). Source files carry no per-file header by
-design; the reasoning is in [CONTRIBUTING.md](CONTRIBUTING.md#no-per-file-licence-headers).
+design; the reasoning is in [CONTRIBUTING.md](CONTRIBUTING.md#no-per-file-license-headers).
 To cite the project, use [CITATION.cff](CITATION.cff).
